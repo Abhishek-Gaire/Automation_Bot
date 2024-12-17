@@ -1,17 +1,15 @@
 {
   "name": "automation-bot",
   "version": "1.0.0",
-  "description": "This bot generates or fetches quotes from API and generates a image using that qoute and publishes the quote and image in any social media",
+  "description": "This bot generates or fetches quotes from API and generates a image using that qoute and downloads the images and saves the quote in your host machine",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "author": "Abhishek Gaire",
   "license": "ISC",
   "dependencies": {
-    "axios": "^1.7.7",
-    "dotenv": "^16.4.5",
-    "openai": "^4.72.0",
     "puppeteer": "^23.7.1"
   }
 }

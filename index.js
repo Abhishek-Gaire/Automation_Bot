@@ -29,7 +29,7 @@ async function generateQuote() {
 
 // 2. Generate an Image Using Puppeteer (Browser Automation)
 async function generateImageWithQuote(quote) {
-  const browser = await puppeteer.launch({ headless: false });
+  const browser = await puppeteer.launch({ headless: true });
   const page = await browser.newPage();
 
   // Set the viewport size to full-screen (e.g., 1920x1080)
